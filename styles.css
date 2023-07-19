@@ -1,0 +1,86 @@
+body {
+  background-color: #f3f3f3;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.score {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#score-label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#score-value {
+  font-size: 24px;
+}
+
+.simon-board {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.button {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s;
+}
+
+.button:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.green {
+  background-color: #4CAF50;
+}
+
+.red {
+  background-color: #F44336;
+}
+
+.yellow {
+  background-color: #FFEB3B;
+}
+
+.blue {
+  background-color: #2196F3;
+}
+
+#start-button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+#start-button:hover {
+  background-color: #555;
+}
